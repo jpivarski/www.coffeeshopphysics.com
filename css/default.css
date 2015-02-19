@@ -1,0 +1,142 @@
+body {
+    background-color: #700808;
+    background-image: url("/img/brickwall_small.jpg");
+    font-size: 16px;
+    line-height: 140%;
+    font-family: "DejaVu Sans", "Arial", sans-serif;
+    padding: 20px;
+}
+body a {
+    text-decoration: none;
+}
+div.island {
+    margin: 0px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    line-height: 100%;
+}
+
+/********************************************************/
+
+div.headblock {
+    padding: 0px;
+}
+div.headblock a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+div.headblock a div {
+    min-width: 675px;
+    padding-top: 20px;
+    height: 170px;
+}
+div.headblock a div img {
+    float: right;
+    border-style: none;
+}
+div.headblock a div h1 {
+    margin: 0px;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: "DejaVu Serif", "Times New Roman", "Times", serif;
+    height: 150px;
+    line-height: 35px;
+}
+div.headblock a div h1 span {
+    font-size: 18px;
+    margin-left: 250px;
+}
+
+div.copyright {
+    text-align: center;
+    color: gray;
+}
+
+/********************************************************/
+
+.figure {
+    display: table;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+.right {
+    float: right;
+    clear: right;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.inline {
+    margin-left: auto;
+    margin-right: auto;
+}
+.figurerow {
+    display: table-row;
+}
+.figurerow div {
+    display: table-cell;
+    padding: 10px;
+}
+.figurerow img {
+    border: none;
+}
+.caption {
+    display: table-caption;
+    caption-side: bottom;
+    margin-top: 0px;
+}
+.caption p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    line-height: 120%;
+}
+
+/********************************************************/
+
+.articlesplash {
+    float: right;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.articlesplash img {
+    border-style: none;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.articlesplash p {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 11px;
+    font-style: italic;
+    text-align: left;
+    line-height: 120%;
+}
+
+/********************************************************/
+
+div.articleitem {
+    font-size: 14px;
+}
+div.articleitem img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+div.readmore {
+    text-align: right;
+}

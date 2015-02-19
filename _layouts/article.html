@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+    <title>{{ page.title }}</title>
+
+    <meta name="title" content="Coffeeshop Physics" >
+    <meta name="description" content="A collection of informal articles about physics.">
+    <link rel="image_src" href="http://www.coffeeshopphysics.com/coffeecup.jpg">
+    <link rel="shortcut icon" href="http://www.coffeeshopphysics.com/favicon.ico"/>
+
+    <meta property="og:title" content="Coffeeshop Physics"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:image" content="http://www.coffeeshopphysics.com/coffeecup.jpg"/>
+    <meta property="og:url" content="http://www.coffeeshopphysics.com/"/>
+    <meta property="og:site_name" content="Coffeeshop Physics"/>
+    <meta property="og:admins" content="100000170013388"/>
+    <meta property="fb:admins" content="100000170013388"/>
+
+    <link href="/css/default.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/scripts/mathtran_img.js"></script>
+
+  </head>
+  <body>
+    <div class="headblock island">
+      <a href="/">
+        <div>
+	  <img src="/img/coffeecup.jpg">
+          <h1>Coffeeshop&nbsp;Physics<br><span>by&nbsp;Jim&nbsp;Pivarski</span></h1>
+        </div>
+      </a>
+    </div>
+    <div class="island">
+      <h1>{{ page.title }}</h1>
+      <div class="articlesplash" style="width: 400px;"><img src="splash400.jpg" width="400" height="400">{{ page.caption }}</div>
+      {{ content | replace_regex '' }}
+    </div>
+    <div class="copyright island">
+      &copy; 2011&ndash;{{ site.time | date: '%Y' }} Jim Pivarski
+    </div>
+  </body>
+</html>

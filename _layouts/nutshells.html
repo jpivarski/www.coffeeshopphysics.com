@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+    <title>Coffeeshop Physics</title>
+
+    <meta name="title" content="Coffeeshop Physics" >
+    <meta name="description" content="A collection of informal articles about physics.">
+    <link rel="image_src" href="http://www.coffeeshopphysics.com/coffeecup.jpg">
+    <link rel="shortcut icon" href="http://www.coffeeshopphysics.com/favicon.ico"/>
+
+    <meta property="og:title" content="Coffeeshop Physics"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:image" content="http://www.coffeeshopphysics.com/coffeecup.jpg"/>
+    <meta property="og:url" content="http://www.coffeeshopphysics.com/"/>
+    <meta property="og:site_name" content="Coffeeshop Physics"/>
+    <meta property="og:admins" content="100000170013388"/>
+    <meta property="fb:admins" content="100000170013388"/>
+
+    <link href="/css/default.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+    <div class="headblock island">
+      <a href="/">
+        <div>
+	  <img src="/img/coffeecup.jpg">
+          <h1>Coffeeshop&nbsp;Physics<br><span>by&nbsp;Jim&nbsp;Pivarski</span></h1>
+        </div>
+      </a>
+    </div>
+    <div class="island">
+      <table width=100% style="margin-bottom: 20px;"><tr>
+          <td width=25% style="border-right: solid 1px grey; text-align: center; padding-left: 10px; padding-right: 10px;"><a href="/">Long articles on this site</a></td>
+          <td width=25% style="border-right: solid 1px grey; text-align: center; padding-left: 10px; padding-right: 10px;"><a href="/cmsresults">Short <i>CMS Results</i> on Fermilab Today</a></td>
+          <td width=25% style="border-right: solid 1px grey; text-align: center; padding-left: 10px; padding-right: 10px;">Short <i>Physics in a Nutshells</i> on Fermilab Today</td>
+          <td width=25% style="text-align: center; padding-left: 10px; padding-right: 10px;"><a href="/talks">Talks and older articles</a></td>
+      </tr></table>
+
+      {{ content }}
+
+      {% assign pages_list = site.pages %}
+      {% assign right = false %}
+      {% sorted_for node in pages_list sort_by:datestamp reverse:true %}
+        {% if node.layout == "nutarticle" %}
+          <div class="articleitem">
+            <a name="{{ node.datestamp }}">
+            <a href="#{{ node.datestamp }}"><img src="/img/link.png" style="float: right; padding: none; margin: none;"></a>
+            <h2><a href="{{ node.link }}">{{ node.prettydate }}: {{ node.title }}</a></h2>
+            <div style="float: {% if right %}right{% else %}left{% endif %}; width: 300px; padding-{% if right %}left{% else %}right{% endif %}: 20px;">
+            <a href="{{ node.imagebig }}"><img src="{{ node.image }}" style="width: 100%;"></a>
+            <p style="font-size: 80%; line-height: 120%;">{{ node.caption }}</p>
+            </div>
+            {% if right %}{% assign right = false %}{% else %}{% assign right = true %}{% endif %}
+            {{ node.content | uptocut '' }}
+          </div>
+        {% endif %}
+      {% endsorted_for %}
+
+    </div>
+    <div class="copyright island">
+      &copy; 2011&ndash;{{ site.time | date: '%Y' }} Jim Pivarski
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            
+tagline:          
+url:              
+
+author:
+  name:           'Jim Pivarski'
+
+encoding:         utf-8

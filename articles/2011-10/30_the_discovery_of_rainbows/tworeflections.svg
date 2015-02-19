@@ -1,0 +1,648 @@
+<svg viewBox="0 0 1200 1000" preserveAspectRatio="xMidyMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<script type="text/javascript"><![CDATA[
+var selectedLine = 96;
+var finalAngle = "51";
+function doMouseOver(evt) {
+    for (i = 0;  i <= 99;  i++) {
+        zero = "zero" + i.toString();
+        one = "one" + i.toString();
+        two = "two" + i.toString();
+        three = "three" + i.toString();
+        four = "four" + i.toString();
+        if (i == selectedLine) {
+            document.getElementById(zero).setAttribute("visibility", "visible");
+            document.getElementById(one).setAttribute("visibility", "visible");
+            document.getElementById(two).setAttribute("visibility", "visible");
+            document.getElementById(three).setAttribute("visibility", "visible");
+            document.getElementById(four).setAttribute("visibility", "visible");
+        }
+        else {
+            document.getElementById(zero).setAttribute("visibility", "hidden");
+            document.getElementById(one).setAttribute("visibility", "hidden");
+            document.getElementById(two).setAttribute("visibility", "hidden");
+            document.getElementById(three).setAttribute("visibility", "hidden");
+            document.getElementById(four).setAttribute("visibility", "hidden");
+        }
+    }
+    if (finalAngle.substr(finalAngle.length-2, 2) == "51"  &&  (finalAngle.length == 2  ||  finalAngle.substr(finalAngle.length-3, 1) != "1")) {
+        document.getElementById("degrees").firstChild.nodeValue = "final angle: " + finalAngle + " degrees (minimum)";
+    }
+    else {
+        document.getElementById("degrees").firstChild.nodeValue = "final angle: " + finalAngle + " degrees";
+    }
+    document.getElementById("rollover").firstChild.nodeValue = " ";
+}
+]]></script>
+<defs>
+    <marker refX="0" refY="0" orient="auto" id="arrow" style="overflow:visible"> <path d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" transform="matrix(-0.8,0,0,-0.8,-10,0)" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" /></marker>
+    <linearGradient id="linearGradient4366"> <stop id="stop4368" style="stop-color:#5599ff;stop-opacity:1" offset="0" /> <stop id="stop4374" style="stop-color:#6fa9ff;stop-opacity:1" offset="0.61783439" /> <stop id="stop4370" style="stop-color:#eff6ff;stop-opacity:1" offset="1" /> </linearGradient>
+    <radialGradient cx="900" cy="200" r="500" fx="681.5874" fy="433.34363" id="radialGradient4372" xlink:href="#linearGradient4366" gradientUnits="userSpaceOnUse" />
+</defs>
+<rect x="0" y="100" width="700" height="100" fill="white" onmouseover="selectedLine = 0; finalAngle = '‒56'; doMouseOver(evt);" />
+<rect x="0" y="800" width="700" height="100" fill="white" onmouseover="selectedLine = 99; finalAngle = '56'; doMouseOver(evt);" />
+<line x1="40" y1="203" x2="657.68" y2="203" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 0; finalAngle = '‒56'; doMouseOver(evt);" />
+<line x1="40" y1="209" x2="627.069" y2="209" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 1; finalAngle = '‒52'; doMouseOver(evt);" />
+<line x1="40" y1="215" x2="606.325" y2="215" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 2; finalAngle = '‒51'; doMouseOver(evt);" />
+<line x1="40" y1="221" x2="589.732" y2="221" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 3; finalAngle = '‒51'; doMouseOver(evt);" />
+<line x1="40" y1="227" x2="575.618" y2="227" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 4; finalAngle = '‒53'; doMouseOver(evt);" />
+<line x1="40" y1="233" x2="563.212" y2="233" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 5; finalAngle = '‒54'; doMouseOver(evt);" />
+<line x1="40" y1="239" x2="552.084" y2="239" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 6; finalAngle = '‒56'; doMouseOver(evt);" />
+<line x1="40" y1="245" x2="541.965" y2="245" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 7; finalAngle = '‒59'; doMouseOver(evt);" />
+<line x1="40" y1="251" x2="532.671" y2="251" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 8; finalAngle = '‒61'; doMouseOver(evt);" />
+<line x1="40" y1="257" x2="524.071" y2="257" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 9; finalAngle = '‒64'; doMouseOver(evt);" />
+<line x1="40" y1="263" x2="516.068" y2="263" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 10; finalAngle = '‒66'; doMouseOver(evt);" />
+<line x1="40" y1="269" x2="508.587" y2="269" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 11; finalAngle = '‒69'; doMouseOver(evt);" />
+<line x1="40" y1="275" x2="501.569" y2="275" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 12; finalAngle = '‒72'; doMouseOver(evt);" />
+<line x1="40" y1="281" x2="494.966" y2="281" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 13; finalAngle = '‒75'; doMouseOver(evt);" />
+<line x1="40" y1="287" x2="488.739" y2="287" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 14; finalAngle = '‒77'; doMouseOver(evt);" />
+<line x1="40" y1="293" x2="482.857" y2="293" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 15; finalAngle = '‒80'; doMouseOver(evt);" />
+<line x1="40" y1="299" x2="477.292" y2="299" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 16; finalAngle = '‒83'; doMouseOver(evt);" />
+<line x1="40" y1="305" x2="472.02" y2="305" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 17; finalAngle = '‒86'; doMouseOver(evt);" />
+<line x1="40" y1="311" x2="467.021" y2="311" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 18; finalAngle = '‒89'; doMouseOver(evt);" />
+<line x1="40" y1="317" x2="462.28" y2="317" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 19; finalAngle = '‒92'; doMouseOver(evt);" />
+<line x1="40" y1="323" x2="457.779" y2="323" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 20; finalAngle = '‒95'; doMouseOver(evt);" />
+<line x1="40" y1="329" x2="453.507" y2="329" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 21; finalAngle = '‒98'; doMouseOver(evt);" />
+<line x1="40" y1="335" x2="449.451" y2="335" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 22; finalAngle = '‒101'; doMouseOver(evt);" />
+<line x1="40" y1="341" x2="445.601" y2="341" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 23; finalAngle = '‒103'; doMouseOver(evt);" />
+<line x1="40" y1="347" x2="441.948" y2="347" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 24; finalAngle = '‒106'; doMouseOver(evt);" />
+<line x1="40" y1="353" x2="438.483" y2="353" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 25; finalAngle = '‒109'; doMouseOver(evt);" />
+<line x1="40" y1="359" x2="435.2" y2="359" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 26; finalAngle = '‒112'; doMouseOver(evt);" />
+<line x1="40" y1="365" x2="432.091" y2="365" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 27; finalAngle = '‒115'; doMouseOver(evt);" />
+<line x1="40" y1="371" x2="429.151" y2="371" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 28; finalAngle = '‒118'; doMouseOver(evt);" />
+<line x1="40" y1="377" x2="426.374" y2="377" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 29; finalAngle = '‒121'; doMouseOver(evt);" />
+<line x1="40" y1="383" x2="423.756" y2="383" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 30; finalAngle = '‒124'; doMouseOver(evt);" />
+<line x1="40" y1="389" x2="421.29" y2="389" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 31; finalAngle = '‒127'; doMouseOver(evt);" />
+<line x1="40" y1="395" x2="418.975" y2="395" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 32; finalAngle = '‒130'; doMouseOver(evt);" />
+<line x1="40" y1="401" x2="416.806" y2="401" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 33; finalAngle = '‒133'; doMouseOver(evt);" />
+<line x1="40" y1="407" x2="414.779" y2="407" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 34; finalAngle = '‒135'; doMouseOver(evt);" />
+<line x1="40" y1="413" x2="412.892" y2="413" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 35; finalAngle = '‒138'; doMouseOver(evt);" />
+<line x1="40" y1="419" x2="411.142" y2="419" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 36; finalAngle = '‒141'; doMouseOver(evt);" />
+<line x1="40" y1="425" x2="409.526" y2="425" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 37; finalAngle = '‒144'; doMouseOver(evt);" />
+<line x1="40" y1="431" x2="408.043" y2="431" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 38; finalAngle = '‒147'; doMouseOver(evt);" />
+<line x1="40" y1="437" x2="406.69" y2="437" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 39; finalAngle = '‒150'; doMouseOver(evt);" />
+<line x1="40" y1="443" x2="405.465" y2="443" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 40; finalAngle = '‒153'; doMouseOver(evt);" />
+<line x1="40" y1="449" x2="404.367" y2="449" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 41; finalAngle = '‒156'; doMouseOver(evt);" />
+<line x1="40" y1="455" x2="403.394" y2="455" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 42; finalAngle = '‒158'; doMouseOver(evt);" />
+<line x1="40" y1="461" x2="402.546" y2="461" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 43; finalAngle = '‒161'; doMouseOver(evt);" />
+<line x1="40" y1="467" x2="401.821" y2="467" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 44; finalAngle = '‒164'; doMouseOver(evt);" />
+<line x1="40" y1="473" x2="401.217" y2="473" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 45; finalAngle = '‒167'; doMouseOver(evt);" />
+<line x1="40" y1="479" x2="400.736" y2="479" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 46; finalAngle = '‒170'; doMouseOver(evt);" />
+<line x1="40" y1="485" x2="400.375" y2="485" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 47; finalAngle = '‒173'; doMouseOver(evt);" />
+<line x1="40" y1="491" x2="400.135" y2="491" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 48; finalAngle = '‒176'; doMouseOver(evt);" />
+<line x1="40" y1="497" x2="400.015" y2="497" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 49; finalAngle = '‒179'; doMouseOver(evt);" />
+<line x1="40" y1="503" x2="400.015" y2="503" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 50; finalAngle = '179'; doMouseOver(evt);" />
+<line x1="40" y1="509" x2="400.135" y2="509" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 51; finalAngle = '176'; doMouseOver(evt);" />
+<line x1="40" y1="515" x2="400.375" y2="515" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 52; finalAngle = '173'; doMouseOver(evt);" />
+<line x1="40" y1="521" x2="400.736" y2="521" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 53; finalAngle = '170'; doMouseOver(evt);" />
+<line x1="40" y1="527" x2="401.217" y2="527" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 54; finalAngle = '167'; doMouseOver(evt);" />
+<line x1="40" y1="533" x2="401.821" y2="533" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 55; finalAngle = '164'; doMouseOver(evt);" />
+<line x1="40" y1="539" x2="402.546" y2="539" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 56; finalAngle = '161'; doMouseOver(evt);" />
+<line x1="40" y1="545" x2="403.394" y2="545" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 57; finalAngle = '158'; doMouseOver(evt);" />
+<line x1="40" y1="551" x2="404.367" y2="551" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 58; finalAngle = '156'; doMouseOver(evt);" />
+<line x1="40" y1="557" x2="405.465" y2="557" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 59; finalAngle = '153'; doMouseOver(evt);" />
+<line x1="40" y1="563" x2="406.69" y2="563" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 60; finalAngle = '150'; doMouseOver(evt);" />
+<line x1="40" y1="569" x2="408.043" y2="569" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 61; finalAngle = '147'; doMouseOver(evt);" />
+<line x1="40" y1="575" x2="409.526" y2="575" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 62; finalAngle = '144'; doMouseOver(evt);" />
+<line x1="40" y1="581" x2="411.142" y2="581" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 63; finalAngle = '141'; doMouseOver(evt);" />
+<line x1="40" y1="587" x2="412.892" y2="587" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 64; finalAngle = '138'; doMouseOver(evt);" />
+<line x1="40" y1="593" x2="414.779" y2="593" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 65; finalAngle = '135'; doMouseOver(evt);" />
+<line x1="40" y1="599" x2="416.806" y2="599" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 66; finalAngle = '133'; doMouseOver(evt);" />
+<line x1="40" y1="605" x2="418.975" y2="605" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 67; finalAngle = '130'; doMouseOver(evt);" />
+<line x1="40" y1="611" x2="421.29" y2="611" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 68; finalAngle = '127'; doMouseOver(evt);" />
+<line x1="40" y1="617" x2="423.756" y2="617" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 69; finalAngle = '124'; doMouseOver(evt);" />
+<line x1="40" y1="623" x2="426.374" y2="623" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 70; finalAngle = '121'; doMouseOver(evt);" />
+<line x1="40" y1="629" x2="429.151" y2="629" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 71; finalAngle = '118'; doMouseOver(evt);" />
+<line x1="40" y1="635" x2="432.091" y2="635" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 72; finalAngle = '115'; doMouseOver(evt);" />
+<line x1="40" y1="641" x2="435.2" y2="641" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 73; finalAngle = '112'; doMouseOver(evt);" />
+<line x1="40" y1="647" x2="438.483" y2="647" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 74; finalAngle = '109'; doMouseOver(evt);" />
+<line x1="40" y1="653" x2="441.948" y2="653" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 75; finalAngle = '106'; doMouseOver(evt);" />
+<line x1="40" y1="659" x2="445.601" y2="659" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 76; finalAngle = '103'; doMouseOver(evt);" />
+<line x1="40" y1="665" x2="449.451" y2="665" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 77; finalAngle = '101'; doMouseOver(evt);" />
+<line x1="40" y1="671" x2="453.507" y2="671" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 78; finalAngle = '98'; doMouseOver(evt);" />
+<line x1="40" y1="677" x2="457.779" y2="677" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 79; finalAngle = '95'; doMouseOver(evt);" />
+<line x1="40" y1="683" x2="462.28" y2="683" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 80; finalAngle = '92'; doMouseOver(evt);" />
+<line x1="40" y1="689" x2="467.021" y2="689" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 81; finalAngle = '89'; doMouseOver(evt);" />
+<line x1="40" y1="695" x2="472.02" y2="695" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 82; finalAngle = '86'; doMouseOver(evt);" />
+<line x1="40" y1="701" x2="477.292" y2="701" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 83; finalAngle = '83'; doMouseOver(evt);" />
+<line x1="40" y1="707" x2="482.857" y2="707" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 84; finalAngle = '80'; doMouseOver(evt);" />
+<line x1="40" y1="713" x2="488.739" y2="713" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 85; finalAngle = '77'; doMouseOver(evt);" />
+<line x1="40" y1="719" x2="494.966" y2="719" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 86; finalAngle = '75'; doMouseOver(evt);" />
+<line x1="40" y1="725" x2="501.569" y2="725" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 87; finalAngle = '72'; doMouseOver(evt);" />
+<line x1="40" y1="731" x2="508.587" y2="731" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 88; finalAngle = '69'; doMouseOver(evt);" />
+<line x1="40" y1="737" x2="516.068" y2="737" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 89; finalAngle = '66'; doMouseOver(evt);" />
+<line x1="40" y1="743" x2="524.071" y2="743" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 90; finalAngle = '64'; doMouseOver(evt);" />
+<line x1="40" y1="749" x2="532.671" y2="749" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 91; finalAngle = '61'; doMouseOver(evt);" />
+<line x1="40" y1="755" x2="541.965" y2="755" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 92; finalAngle = '59'; doMouseOver(evt);" />
+<line x1="40" y1="761" x2="552.084" y2="761" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 93; finalAngle = '56'; doMouseOver(evt);" />
+<line x1="40" y1="767" x2="563.212" y2="767" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 94; finalAngle = '54'; doMouseOver(evt);" />
+<line x1="40" y1="773" x2="575.618" y2="773" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 95; finalAngle = '53'; doMouseOver(evt);" />
+<line x1="40" y1="779" x2="589.732" y2="779" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 96; finalAngle = '51'; doMouseOver(evt);" />
+<line x1="40" y1="785" x2="606.325" y2="785" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 97; finalAngle = '51'; doMouseOver(evt);" />
+<line x1="40" y1="791" x2="627.069" y2="791" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 98; finalAngle = '52'; doMouseOver(evt);" />
+<line x1="40" y1="797" x2="657.68" y2="797" stroke="white" stroke-width="7px" visibility="visible" onmouseover="selectedLine = 99; finalAngle = '56'; doMouseOver(evt);" />
+<path d="M 1000,500 C 1000,665.68542 865.68542,800 700,800 534.31458,800 400,665.68542 400,500 400,334.31458 534.31458,200 700,200 c 165.68542,0 300,134.31458 300,300 z" id="circlepath" style="fill: url(#radialGradient4372);" stroke="black" stroke-width="3px" />
+<line id="zero0" x1="40" y1="203" x2="657.68" y2="203" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one0" x1="657.68" y1="203" x2="991.049" y2="427.266" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two0" x1="991.049" y1="427.266" x2="802.372" y2="781.993" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three0" x1="802.372" y1="781.993" x2="430.073" y2="630.917" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four0" x1="430.073" y1="630.917" x2="246.998" y2="359.327" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero1" x1="40" y1="209" x2="627.069" y2="209" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one1" x1="627.069" y1="209" x2="986.186" y2="410.015" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two1" x1="986.186" y1="410.015" x2="806.725" y2="780.374" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three1" x1="806.725" y1="780.374" x2="426.416" y2="623.093" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four1" x1="426.416" y1="623.093" x2="239.477" y2="386.338" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero2" x1="40" y1="215" x2="606.325" y2="215" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one2" x1="606.325" y1="215" x2="983.482" y2="401.828" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two2" x1="983.482" y1="401.828" x2="802.645" y2="781.894" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three2" x1="802.645" y1="781.894" x2="419.765" y2="607.091" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four2" x1="419.765" y1="607.091" x2="239.671" y2="385.558" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero3" x1="40" y1="221" x2="589.732" y2="221" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one3" x1="589.732" y1="221" x2="981.824" y2="397.165" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two3" x1="981.824" y1="397.165" x2="795.331" y2="784.45" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three3" x1="795.331" y1="784.45" x2="413.123" y2="587.759" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four3" x1="413.123" y1="587.759" x2="242.683" y2="374.059" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero4" x1="40" y1="227" x2="575.618" y2="227" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one4" x1="575.618" y1="227" x2="980.818" y2="394.447" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two4" x1="980.818" y1="394.447" x2="786.235" y2="787.339" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three4" x1="786.235" y1="787.339" x2="407.468" y2="566.52" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four4" x1="407.468" y1="566.52" x2="247.756" y2="356.909" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero5" x1="40" y1="233" x2="563.212" y2="233" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one5" x1="563.212" y1="233" x2="980.259" y2="392.972" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two5" x1="980.259" y1="392.972" x2="776.005" y2="790.213" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three5" x1="776.005" y1="790.213" x2="403.257" y2="544.085" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four5" x1="403.257" y1="544.085" x2="254.741" y2="336.464" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero6" x1="40" y1="239" x2="552.084" y2="239" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one6" x1="552.084" y1="239" x2="980.024" y2="392.359" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two6" x1="980.024" y1="392.359" x2="764.994" y2="792.875" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three6" x1="764.994" y1="792.875" x2="400.73" y2="520.914" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four6" x1="400.73" y1="520.914" x2="263.619" y2="314.067" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero7" x1="40" y1="245" x2="541.965" y2="245" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one7" x1="541.965" y1="245" x2="980.03" y2="392.375" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two7" x1="980.03" y1="392.375" x2="753.426" y2="795.204" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three7" x1="753.426" y1="795.204" x2="400.012" y2="497.347" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four7" x1="400.012" y1="497.347" x2="274.388" y2="290.585" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero8" x1="40" y1="251" x2="532.671" y2="251" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one8" x1="532.671" y1="251" x2="980.22" y2="392.871" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two8" x1="980.22" y1="392.871" x2="741.454" y2="797.122" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three8" x1="741.454" y1="797.122" x2="401.158" y2="473.661" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four8" x1="401.158" y1="473.661" x2="287.038" y2="266.629" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero9" x1="40" y1="257" x2="524.071" y2="257" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one9" x1="524.071" y1="257" x2="980.552" y2="393.743" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two9" x1="980.552" y1="393.743" x2="729.19" y2="798.577" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three9" x1="729.19" y1="798.577" x2="404.181" y2="450.091" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four9" x1="404.181" y1="450.091" x2="301.535" y2="242.656" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero10" x1="40" y1="263" x2="516.068" y2="263" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one10" x1="516.068" y1="263" x2="980.993" y2="394.914" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two10" x1="980.993" y1="394.914" x2="716.721" y2="799.534" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three10" x1="716.721" y1="799.534" x2="409.057" y2="426.841" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four10" x1="409.057" y1="426.841" x2="317.832" y2="219.024" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero11" x1="40" y1="269" x2="508.587" y2="269" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one11" x1="508.587" y1="269" x2="981.519" y2="396.331" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two11" x1="981.519" y1="396.331" x2="704.117" y2="799.972" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three11" x1="704.117" y1="799.972" x2="415.743" y2="404.095" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four11" x1="415.743" y1="404.095" x2="335.861" y2="196.022" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero12" x1="40" y1="275" x2="501.569" y2="275" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one12" x1="501.569" y1="275" x2="982.11" y2="397.951" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two12" x1="982.11" y1="397.951" x2="691.436" y2="799.878" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three12" x1="691.436" y1="799.878" x2="424.174" y2="382.016" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four12" x1="424.174" y1="382.016" x2="355.541" y2="173.89" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero13" x1="40" y1="281" x2="494.966" y2="281" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one13" x1="494.966" y1="281" x2="982.751" y2="399.741" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two13" x1="982.751" y1="399.741" x2="678.727" y2="799.245" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three13" x1="678.727" y1="799.245" x2="434.275" y2="360.751" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four13" x1="434.275" y1="360.751" x2="376.779" y2="152.828" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero14" x1="40" y1="287" x2="488.739" y2="287" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one14" x1="488.739" y1="287" x2="983.43" y2="401.676" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two14" x1="983.43" y1="401.676" x2="666.035" y2="798.071" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three14" x1="666.035" y1="798.071" x2="445.957" y2="340.431" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four14" x1="445.957" y1="340.431" x2="399.473" y2="133.007" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero15" x1="40" y1="293" x2="482.857" y2="293" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one15" x1="482.857" y1="293" x2="984.135" y2="403.734" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two15" x1="984.135" y1="403.734" x2="653.397" y2="796.358" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three15" x1="653.397" y1="796.358" x2="459.123" y2="321.175" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four15" x1="459.123" y1="321.175" x2="423.511" y2="114.573" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero16" x1="40" y1="299" x2="477.292" y2="299" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one16" x1="477.292" y1="299" x2="984.859" y2="405.898" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two16" x1="984.859" y1="405.898" x2="640.849" y2="794.111" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three16" x1="640.849" y1="794.111" x2="473.669" y2="303.088" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four16" x1="473.669" y1="303.088" x2="448.775" y2="97.6492" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero17" x1="40" y1="305" x2="472.02" y2="305" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one17" x1="472.02" y1="305" x2="985.595" y2="408.156" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two17" x1="985.595" y1="408.156" x2="628.42" y2="791.335" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three17" x1="628.42" y1="791.335" x2="489.485" y2="286.263" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four17" x1="489.485" y1="286.263" x2="475.143" y2="82.3407" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero18" x1="40" y1="311" x2="467.021" y2="311" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one18" x1="467.021" y1="311" x2="986.337" y2="410.494" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two18" x1="986.337" y1="410.494" x2="616.139" y2="788.04" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three18" x1="616.139" y1="788.04" x2="506.458" y2="270.781" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four18" x1="506.458" y1="270.781" x2="502.487" y2="68.7362" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero19" x1="40" y1="317" x2="462.28" y2="317" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one19" x1="462.28" y1="317" x2="987.079" y2="412.904" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two19" x1="987.079" y1="412.904" x2="604.032" y2="784.236" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three19" x1="604.032" y1="784.236" x2="524.47" y2="256.712" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four19" x1="524.47" y1="256.712" x2="530.677" y2="56.9091" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero20" x1="40" y1="323" x2="457.779" y2="323" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one20" x1="457.779" y1="323" x2="987.818" y2="415.377" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two20" x1="987.818" y1="415.377" x2="592.124" y2="779.934" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three20" x1="592.124" y1="779.934" x2="543.4" y2="244.116" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four20" x1="543.4" y1="244.116" x2="559.58" y2="46.9191" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero21" x1="40" y1="329" x2="453.507" y2="329" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one21" x1="453.507" y1="329" x2="988.549" y2="417.906" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two21" x1="988.549" y1="417.906" x2="580.437" y2="775.145" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three21" x1="580.437" y1="775.145" x2="563.129" y2="233.042" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four21" x1="563.129" y1="233.042" x2="589.065" y2="38.8131" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero22" x1="40" y1="335" x2="449.451" y2="335" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one22" x1="449.451" y1="335" x2="989.27" y2="420.485" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two22" x1="989.27" y1="420.485" x2="568.992" y2="769.883" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three22" x1="568.992" y1="769.883" x2="583.534" y2="223.53" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four22" x1="583.534" y1="223.53" x2="618.996" y2="32.6261" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero23" x1="40" y1="341" x2="445.601" y2="341" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one23" x1="445.601" y1="341" x2="989.979" y2="423.108" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two23" x1="989.979" y1="423.108" x2="557.807" y2="764.161" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three23" x1="557.807" y1="764.161" x2="604.492" y2="215.609" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four23" x1="604.492" y1="215.609" x2="649.24" y2="28.3821" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero24" x1="40" y1="347" x2="441.948" y2="347" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one24" x1="441.948" y1="347" x2="990.672" y2="425.772" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two24" x1="990.672" y1="425.772" x2="546.902" y2="757.994" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three24" x1="546.902" y1="757.994" x2="625.883" y2="209.3" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four24" x1="625.883" y1="209.3" x2="679.665" y2="26.0944" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero25" x1="40" y1="353" x2="438.483" y2="353" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one25" x1="438.483" y1="353" x2="991.348" y2="428.472" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two25" x1="991.348" y1="428.472" x2="536.293" y2="751.396" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three25" x1="536.293" y1="751.396" x2="647.583" y2="204.615" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four25" x1="647.583" y1="204.615" x2="710.138" y2="25.7667" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero26" x1="40" y1="359" x2="435.2" y2="359" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one26" x1="435.2" y1="359" x2="992.005" y2="431.204" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two26" x1="992.005" y1="431.204" x2="525.996" y2="744.382" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three26" x1="525.996" y1="744.382" x2="669.475" y2="201.557" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four26" x1="669.475" y1="201.557" x2="740.53" y2="27.3931" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero27" x1="40" y1="365" x2="432.091" y2="365" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one27" x1="432.091" y1="365" x2="992.642" y2="433.965" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two27" x1="992.642" y1="433.965" x2="516.026" y2="736.968" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three27" x1="516.026" y1="736.968" x2="691.441" y2="200.122" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four27" x1="691.441" y1="200.122" x2="770.714" y2="30.9589" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero28" x1="40" y1="371" x2="429.151" y2="371" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one28" x1="429.151" y1="371" x2="993.257" y2="436.753" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two28" x1="993.257" y1="436.753" x2="506.397" y2="729.168" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three28" x1="506.397" y1="729.168" x2="713.364" y2="200.298" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four28" x1="713.364" y1="200.298" x2="800.564" y2="36.4411" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero29" x1="40" y1="377" x2="426.374" y2="377" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one29" x1="426.374" y1="377" x2="993.85" y2="439.565" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two29" x1="993.85" y1="439.565" x2="497.123" y2="721" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three29" x1="497.123" y1="721" x2="735.133" y2="202.064" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four29" x1="735.133" y1="202.064" x2="829.959" y2="43.8087" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero30" x1="40" y1="383" x2="423.756" y2="383" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one30" x1="423.756" y1="383" x2="994.418" y2="442.399" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two30" x1="994.418" y1="442.399" x2="488.215" y2="712.479" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three30" x1="488.215" y1="712.479" x2="756.637" y2="205.395" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four30" x1="756.637" y1="205.395" x2="858.781" y2="53.023" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero31" x1="40" y1="389" x2="421.29" y2="389" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one31" x1="421.29" y1="389" x2="994.962" y2="445.253" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two31" x1="994.962" y1="445.253" x2="479.686" y2="703.622" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three31" x1="479.686" y1="703.622" x2="777.769" y2="210.255" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four31" x1="777.769" y1="210.255" x2="886.916" y2="64.0383" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero32" x1="40" y1="395" x2="418.975" y2="395" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one32" x1="418.975" y1="395" x2="995.481" y2="448.125" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two32" x1="995.481" y1="448.125" x2="471.546" y2="694.444" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three32" x1="471.546" y1="694.444" x2="798.429" y2="216.607" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four32" x1="798.429" y1="216.607" x2="914.251" y2="76.8022" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero33" x1="40" y1="401" x2="416.806" y2="401" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one33" x1="416.806" y1="401" x2="995.974" y2="451.014" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two33" x1="995.974" y1="451.014" x2="463.804" y2="684.964" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three33" x1="463.804" y1="684.964" x2="818.515" y2="224.402" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four33" x1="818.515" y1="224.402" x2="940.683" y2="91.2558" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero34" x1="40" y1="407" x2="414.779" y2="407" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one34" x1="414.779" y1="407" x2="996.439" y2="453.917" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two34" x1="996.439" y1="453.917" x2="456.472" y2="675.197" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three34" x1="456.472" y1="675.197" x2="837.934" y2="233.59" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four34" x1="837.934" y1="233.59" x2="966.108" y2="107.334" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero35" x1="40" y1="413" x2="412.892" y2="413" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one35" x1="412.892" y1="413" x2="996.878" y2="456.834" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two35" x1="996.878" y1="456.834" x2="449.557" y2="665.161" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three35" x1="449.557" y1="665.161" x2="856.595" y2="244.113" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four35" x1="856.595" y1="244.113" x2="990.431" y2="124.967" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero36" x1="40" y1="419" x2="411.142" y2="419" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one36" x1="411.142" y1="419" x2="997.289" y2="459.762" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two36" x1="997.289" y1="459.762" x2="443.067" y2="654.872" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three36" x1="443.067" y1="654.872" x2="874.413" y2="255.909" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four36" x1="874.413" y1="255.909" x2="1013.56" y2="144.078" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero37" x1="40" y1="425" x2="409.526" y2="425" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one37" x1="409.526" y1="425" x2="997.672" y2="462.702" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two37" x1="997.672" y1="462.702" x2="437.01" y2="644.348" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three37" x1="437.01" y1="644.348" x2="891.306" y2="268.911" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four37" x1="891.306" y1="268.911" x2="1035.41" y2="164.588" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero38" x1="40" y1="431" x2="408.043" y2="431" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one38" x1="408.043" y1="431" x2="998.027" y2="465.652" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two38" x1="998.027" y1="465.652" x2="431.393" y2="633.605" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three38" x1="431.393" y1="633.605" x2="907.2" y2="283.048" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four38" x1="907.2" y1="283.048" x2="1055.89" y2="186.409" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero39" x1="40" y1="437" x2="406.69" y2="437" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one39" x1="406.69" y1="437" x2="998.353" y2="468.611" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two39" x1="998.353" y1="468.611" x2="426.223" y2="622.662" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three39" x1="426.223" y1="622.662" x2="922.022" y2="298.242" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four39" x1="922.022" y1="298.242" x2="1074.94" y2="209.454" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero40" x1="40" y1="443" x2="405.465" y2="443" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one40" x1="405.465" y1="443" x2="998.651" y2="471.578" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two40" x1="998.651" y1="471.578" x2="421.504" y2="611.535" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three40" x1="421.504" y1="611.535" x2="935.709" y2="314.417" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four40" x1="935.709" y1="314.417" x2="1092.49" y2="233.629" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero41" x1="40" y1="449" x2="404.367" y2="449" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one41" x1="404.367" y1="449" x2="998.919" y2="474.551" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two41" x1="998.919" y1="474.551" x2="417.243" y2="600.242" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three41" x1="417.243" y1="600.242" x2="948.2" y2="331.487" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four41" x1="948.2" y1="331.487" x2="1108.46" y2="258.836" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero42" x1="40" y1="455" x2="403.394" y2="455" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one42" x1="403.394" y1="455" x2="999.157" y2="477.531" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two42" x1="999.157" y1="477.531" x2="413.443" y2="588.799" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three42" x1="413.443" y1="588.799" x2="959.442" y2="349.368" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four42" x1="959.442" y1="349.368" x2="1122.81" y2="284.976" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero43" x1="40" y1="461" x2="402.546" y2="461" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one43" x1="402.546" y1="461" x2="999.367" y2="480.517" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two43" x1="999.367" y1="480.517" x2="410.11" y2="577.226" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three43" x1="410.11" y1="577.226" x2="969.385" y2="367.97" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four43" x1="969.385" y1="367.97" x2="1135.47" y2="311.945" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero44" x1="40" y1="467" x2="401.821" y2="467" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one44" x1="401.821" y1="467" x2="999.546" y2="483.506" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two44" x1="999.546" y1="483.506" x2="407.246" y2="565.538" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three44" x1="407.246" y1="565.538" x2="977.987" y2="387.203" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four44" x1="977.987" y1="387.203" x2="1146.41" y2="339.638" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero45" x1="40" y1="473" x2="401.217" y2="473" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one45" x1="401.217" y1="473" x2="999.696" y2="486.5" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two45" x1="999.696" y1="486.5" x2="404.855" y2="553.753" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three45" x1="404.855" y1="553.753" x2="985.212" y2="406.973" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four45" x1="985.212" y1="406.973" x2="1155.59" y2="367.948" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero46" x1="40" y1="479" x2="400.736" y2="479" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one46" x1="400.736" y1="479" x2="999.816" y2="489.497" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two46" x1="999.816" y1="489.497" x2="402.939" y2="541.89" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three46" x1="402.939" y1="541.89" x2="991.029" y2="427.185" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four46" x1="991.029" y1="427.185" x2="1162.97" y2="396.764" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero47" x1="40" y1="485" x2="400.375" y2="485" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one47" x1="400.375" y1="485" x2="999.906" y2="492.496" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two47" x1="999.906" y1="492.496" x2="401.5" y2="529.966" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three47" x1="401.5" y1="529.966" x2="995.413" y2="447.741" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four47" x1="995.413" y1="447.741" x2="1168.53" y2="425.977" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero48" x1="40" y1="491" x2="400.135" y2="491" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one48" x1="400.135" y1="491" x2="999.966" y2="495.497" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two48" x1="999.966" y1="495.497" x2="400.54" y2="517.997" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three48" x1="400.54" y1="517.997" x2="998.346" y2="468.546" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four48" x1="998.346" y1="468.546" x2="1172.25" y2="455.472" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero49" x1="40" y1="497" x2="400.015" y2="497" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one49" x1="400.015" y1="497" x2="999.996" y2="498.499" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two49" x1="999.996" y1="498.499" x2="400.06" y2="506.002" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three49" x1="400.06" y1="506.002" x2="999.816" y2="489.499" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four49" x1="999.816" y1="489.499" x2="1174.11" y2="485.138" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero50" x1="40" y1="503" x2="400.015" y2="503" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one50" x1="400.015" y1="503" x2="999.996" y2="501.501" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two50" x1="999.996" y1="501.501" x2="400.06" y2="493.998" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three50" x1="400.06" y1="493.998" x2="999.816" y2="510.501" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four50" x1="999.816" y1="510.501" x2="1174.11" y2="514.862" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero51" x1="40" y1="509" x2="400.135" y2="509" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one51" x1="400.135" y1="509" x2="999.966" y2="504.503" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two51" x1="999.966" y1="504.503" x2="400.54" y2="482.003" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three51" x1="400.54" y1="482.003" x2="998.346" y2="531.454" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four51" x1="998.346" y1="531.454" x2="1172.25" y2="544.528" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero52" x1="40" y1="515" x2="400.375" y2="515" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one52" x1="400.375" y1="515" x2="999.906" y2="507.504" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two52" x1="999.906" y1="507.504" x2="401.5" y2="470.034" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three52" x1="401.5" y1="470.034" x2="995.413" y2="552.259" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four52" x1="995.413" y1="552.259" x2="1168.53" y2="574.023" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero53" x1="40" y1="521" x2="400.736" y2="521" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one53" x1="400.736" y1="521" x2="999.816" y2="510.503" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two53" x1="999.816" y1="510.503" x2="402.939" y2="458.11" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three53" x1="402.939" y1="458.11" x2="991.029" y2="572.815" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four53" x1="991.029" y1="572.815" x2="1162.97" y2="603.236" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero54" x1="40" y1="527" x2="401.217" y2="527" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one54" x1="401.217" y1="527" x2="999.696" y2="513.5" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two54" x1="999.696" y1="513.5" x2="404.855" y2="446.247" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three54" x1="404.855" y1="446.247" x2="985.212" y2="593.027" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four54" x1="985.212" y1="593.027" x2="1155.59" y2="632.052" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero55" x1="40" y1="533" x2="401.821" y2="533" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one55" x1="401.821" y1="533" x2="999.546" y2="516.494" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two55" x1="999.546" y1="516.494" x2="407.246" y2="434.462" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three55" x1="407.246" y1="434.462" x2="977.987" y2="612.797" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four55" x1="977.987" y1="612.797" x2="1146.41" y2="660.362" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero56" x1="40" y1="539" x2="402.546" y2="539" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one56" x1="402.546" y1="539" x2="999.367" y2="519.483" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two56" x1="999.367" y1="519.483" x2="410.11" y2="422.774" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three56" x1="410.11" y1="422.774" x2="969.385" y2="632.03" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four56" x1="969.385" y1="632.03" x2="1135.47" y2="688.055" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero57" x1="40" y1="545" x2="403.394" y2="545" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one57" x1="403.394" y1="545" x2="999.157" y2="522.469" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two57" x1="999.157" y1="522.469" x2="413.443" y2="411.201" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three57" x1="413.443" y1="411.201" x2="959.442" y2="650.632" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four57" x1="959.442" y1="650.632" x2="1122.81" y2="715.024" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero58" x1="40" y1="551" x2="404.367" y2="551" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one58" x1="404.367" y1="551" x2="998.919" y2="525.449" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two58" x1="998.919" y1="525.449" x2="417.243" y2="399.758" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three58" x1="417.243" y1="399.758" x2="948.2" y2="668.513" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four58" x1="948.2" y1="668.513" x2="1108.46" y2="741.164" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero59" x1="40" y1="557" x2="405.465" y2="557" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one59" x1="405.465" y1="557" x2="998.651" y2="528.422" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two59" x1="998.651" y1="528.422" x2="421.504" y2="388.465" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three59" x1="421.504" y1="388.465" x2="935.709" y2="685.583" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four59" x1="935.709" y1="685.583" x2="1092.49" y2="766.371" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero60" x1="40" y1="563" x2="406.69" y2="563" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one60" x1="406.69" y1="563" x2="998.353" y2="531.389" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two60" x1="998.353" y1="531.389" x2="426.223" y2="377.338" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three60" x1="426.223" y1="377.338" x2="922.022" y2="701.758" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four60" x1="922.022" y1="701.758" x2="1074.94" y2="790.546" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero61" x1="40" y1="569" x2="408.043" y2="569" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one61" x1="408.043" y1="569" x2="998.027" y2="534.348" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two61" x1="998.027" y1="534.348" x2="431.393" y2="366.395" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three61" x1="431.393" y1="366.395" x2="907.2" y2="716.952" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four61" x1="907.2" y1="716.952" x2="1055.89" y2="813.591" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero62" x1="40" y1="575" x2="409.526" y2="575" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one62" x1="409.526" y1="575" x2="997.672" y2="537.298" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two62" x1="997.672" y1="537.298" x2="437.01" y2="355.652" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three62" x1="437.01" y1="355.652" x2="891.306" y2="731.089" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four62" x1="891.306" y1="731.089" x2="1035.41" y2="835.412" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero63" x1="40" y1="581" x2="411.142" y2="581" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one63" x1="411.142" y1="581" x2="997.289" y2="540.238" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two63" x1="997.289" y1="540.238" x2="443.067" y2="345.128" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three63" x1="443.067" y1="345.128" x2="874.413" y2="744.091" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four63" x1="874.413" y1="744.091" x2="1013.56" y2="855.922" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero64" x1="40" y1="587" x2="412.892" y2="587" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one64" x1="412.892" y1="587" x2="996.878" y2="543.166" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two64" x1="996.878" y1="543.166" x2="449.557" y2="334.839" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three64" x1="449.557" y1="334.839" x2="856.595" y2="755.887" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four64" x1="856.595" y1="755.887" x2="990.431" y2="875.033" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero65" x1="40" y1="593" x2="414.779" y2="593" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one65" x1="414.779" y1="593" x2="996.439" y2="546.083" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two65" x1="996.439" y1="546.083" x2="456.472" y2="324.803" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three65" x1="456.472" y1="324.803" x2="837.934" y2="766.41" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four65" x1="837.934" y1="766.41" x2="966.108" y2="892.666" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero66" x1="40" y1="599" x2="416.806" y2="599" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one66" x1="416.806" y1="599" x2="995.974" y2="548.986" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two66" x1="995.974" y1="548.986" x2="463.804" y2="315.036" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three66" x1="463.804" y1="315.036" x2="818.515" y2="775.598" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four66" x1="818.515" y1="775.598" x2="940.683" y2="908.744" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero67" x1="40" y1="605" x2="418.975" y2="605" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one67" x1="418.975" y1="605" x2="995.481" y2="551.875" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two67" x1="995.481" y1="551.875" x2="471.546" y2="305.556" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three67" x1="471.546" y1="305.556" x2="798.429" y2="783.393" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four67" x1="798.429" y1="783.393" x2="914.251" y2="923.198" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero68" x1="40" y1="611" x2="421.29" y2="611" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one68" x1="421.29" y1="611" x2="994.962" y2="554.747" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two68" x1="994.962" y1="554.747" x2="479.686" y2="296.378" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three68" x1="479.686" y1="296.378" x2="777.769" y2="789.745" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four68" x1="777.769" y1="789.745" x2="886.916" y2="935.962" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero69" x1="40" y1="617" x2="423.756" y2="617" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one69" x1="423.756" y1="617" x2="994.418" y2="557.601" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two69" x1="994.418" y1="557.601" x2="488.215" y2="287.521" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three69" x1="488.215" y1="287.521" x2="756.637" y2="794.605" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four69" x1="756.637" y1="794.605" x2="858.781" y2="946.977" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero70" x1="40" y1="623" x2="426.374" y2="623" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one70" x1="426.374" y1="623" x2="993.85" y2="560.435" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two70" x1="993.85" y1="560.435" x2="497.123" y2="279" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three70" x1="497.123" y1="279" x2="735.133" y2="797.936" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four70" x1="735.133" y1="797.936" x2="829.959" y2="956.191" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero71" x1="40" y1="629" x2="429.151" y2="629" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one71" x1="429.151" y1="629" x2="993.257" y2="563.247" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two71" x1="993.257" y1="563.247" x2="506.397" y2="270.832" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three71" x1="506.397" y1="270.832" x2="713.364" y2="799.702" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four71" x1="713.364" y1="799.702" x2="800.564" y2="963.559" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero72" x1="40" y1="635" x2="432.091" y2="635" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one72" x1="432.091" y1="635" x2="992.642" y2="566.035" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two72" x1="992.642" y1="566.035" x2="516.026" y2="263.032" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three72" x1="516.026" y1="263.032" x2="691.441" y2="799.878" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four72" x1="691.441" y1="799.878" x2="770.714" y2="969.041" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero73" x1="40" y1="641" x2="435.2" y2="641" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one73" x1="435.2" y1="641" x2="992.005" y2="568.796" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two73" x1="992.005" y1="568.796" x2="525.996" y2="255.618" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three73" x1="525.996" y1="255.618" x2="669.475" y2="798.443" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four73" x1="669.475" y1="798.443" x2="740.53" y2="972.607" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero74" x1="40" y1="647" x2="438.483" y2="647" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one74" x1="438.483" y1="647" x2="991.348" y2="571.528" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two74" x1="991.348" y1="571.528" x2="536.293" y2="248.604" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three74" x1="536.293" y1="248.604" x2="647.583" y2="795.385" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four74" x1="647.583" y1="795.385" x2="710.138" y2="974.233" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero75" x1="40" y1="653" x2="441.948" y2="653" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one75" x1="441.948" y1="653" x2="990.672" y2="574.228" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two75" x1="990.672" y1="574.228" x2="546.902" y2="242.006" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three75" x1="546.902" y1="242.006" x2="625.883" y2="790.7" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four75" x1="625.883" y1="790.7" x2="679.665" y2="973.906" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero76" x1="40" y1="659" x2="445.601" y2="659" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one76" x1="445.601" y1="659" x2="989.979" y2="576.892" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two76" x1="989.979" y1="576.892" x2="557.807" y2="235.839" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three76" x1="557.807" y1="235.839" x2="604.492" y2="784.391" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four76" x1="604.492" y1="784.391" x2="649.24" y2="971.618" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero77" x1="40" y1="665" x2="449.451" y2="665" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one77" x1="449.451" y1="665" x2="989.27" y2="579.515" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two77" x1="989.27" y1="579.515" x2="568.992" y2="230.117" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three77" x1="568.992" y1="230.117" x2="583.534" y2="776.47" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four77" x1="583.534" y1="776.47" x2="618.996" y2="967.374" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero78" x1="40" y1="671" x2="453.507" y2="671" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one78" x1="453.507" y1="671" x2="988.549" y2="582.094" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two78" x1="988.549" y1="582.094" x2="580.437" y2="224.855" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three78" x1="580.437" y1="224.855" x2="563.129" y2="766.958" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four78" x1="563.129" y1="766.958" x2="589.065" y2="961.187" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero79" x1="40" y1="677" x2="457.779" y2="677" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one79" x1="457.779" y1="677" x2="987.818" y2="584.623" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two79" x1="987.818" y1="584.623" x2="592.124" y2="220.066" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three79" x1="592.124" y1="220.066" x2="543.4" y2="755.884" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four79" x1="543.4" y1="755.884" x2="559.58" y2="953.081" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero80" x1="40" y1="683" x2="462.28" y2="683" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one80" x1="462.28" y1="683" x2="987.079" y2="587.096" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two80" x1="987.079" y1="587.096" x2="604.032" y2="215.764" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three80" x1="604.032" y1="215.764" x2="524.47" y2="743.288" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four80" x1="524.47" y1="743.288" x2="530.677" y2="943.091" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero81" x1="40" y1="689" x2="467.021" y2="689" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one81" x1="467.021" y1="689" x2="986.337" y2="589.506" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two81" x1="986.337" y1="589.506" x2="616.139" y2="211.96" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three81" x1="616.139" y1="211.96" x2="506.458" y2="729.219" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four81" x1="506.458" y1="729.219" x2="502.487" y2="931.264" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero82" x1="40" y1="695" x2="472.02" y2="695" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one82" x1="472.02" y1="695" x2="985.595" y2="591.844" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two82" x1="985.595" y1="591.844" x2="628.42" y2="208.665" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three82" x1="628.42" y1="208.665" x2="489.485" y2="713.737" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four82" x1="489.485" y1="713.737" x2="475.143" y2="917.659" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero83" x1="40" y1="701" x2="477.292" y2="701" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one83" x1="477.292" y1="701" x2="984.859" y2="594.102" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two83" x1="984.859" y1="594.102" x2="640.849" y2="205.889" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three83" x1="640.849" y1="205.889" x2="473.669" y2="696.912" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four83" x1="473.669" y1="696.912" x2="448.775" y2="902.351" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero84" x1="40" y1="707" x2="482.857" y2="707" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one84" x1="482.857" y1="707" x2="984.135" y2="596.266" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two84" x1="984.135" y1="596.266" x2="653.397" y2="203.642" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three84" x1="653.397" y1="203.642" x2="459.123" y2="678.825" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four84" x1="459.123" y1="678.825" x2="423.511" y2="885.427" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero85" x1="40" y1="713" x2="488.739" y2="713" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one85" x1="488.739" y1="713" x2="983.43" y2="598.324" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two85" x1="983.43" y1="598.324" x2="666.035" y2="201.929" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three85" x1="666.035" y1="201.929" x2="445.957" y2="659.569" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four85" x1="445.957" y1="659.569" x2="399.473" y2="866.993" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero86" x1="40" y1="719" x2="494.966" y2="719" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one86" x1="494.966" y1="719" x2="982.751" y2="600.259" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two86" x1="982.751" y1="600.259" x2="678.727" y2="200.755" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three86" x1="678.727" y1="200.755" x2="434.275" y2="639.249" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four86" x1="434.275" y1="639.249" x2="376.779" y2="847.172" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero87" x1="40" y1="725" x2="501.569" y2="725" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one87" x1="501.569" y1="725" x2="982.11" y2="602.049" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two87" x1="982.11" y1="602.049" x2="691.436" y2="200.122" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three87" x1="691.436" y1="200.122" x2="424.174" y2="617.984" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four87" x1="424.174" y1="617.984" x2="355.541" y2="826.11" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero88" x1="40" y1="731" x2="508.587" y2="731" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one88" x1="508.587" y1="731" x2="981.519" y2="603.669" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two88" x1="981.519" y1="603.669" x2="704.117" y2="200.028" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three88" x1="704.117" y1="200.028" x2="415.743" y2="595.905" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four88" x1="415.743" y1="595.905" x2="335.861" y2="803.978" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero89" x1="40" y1="737" x2="516.068" y2="737" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one89" x1="516.068" y1="737" x2="980.993" y2="605.086" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two89" x1="980.993" y1="605.086" x2="716.721" y2="200.466" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three89" x1="716.721" y1="200.466" x2="409.057" y2="573.159" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four89" x1="409.057" y1="573.159" x2="317.832" y2="780.976" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero90" x1="40" y1="743" x2="524.071" y2="743" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one90" x1="524.071" y1="743" x2="980.552" y2="606.257" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two90" x1="980.552" y1="606.257" x2="729.19" y2="201.423" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three90" x1="729.19" y1="201.423" x2="404.181" y2="549.909" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four90" x1="404.181" y1="549.909" x2="301.535" y2="757.344" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero91" x1="40" y1="749" x2="532.671" y2="749" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one91" x1="532.671" y1="749" x2="980.22" y2="607.129" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two91" x1="980.22" y1="607.129" x2="741.454" y2="202.878" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three91" x1="741.454" y1="202.878" x2="401.158" y2="526.339" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four91" x1="401.158" y1="526.339" x2="287.038" y2="733.371" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero92" x1="40" y1="755" x2="541.965" y2="755" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one92" x1="541.965" y1="755" x2="980.03" y2="607.625" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two92" x1="980.03" y1="607.625" x2="753.426" y2="204.796" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three92" x1="753.426" y1="204.796" x2="400.012" y2="502.653" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four92" x1="400.012" y1="502.653" x2="274.388" y2="709.415" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero93" x1="40" y1="761" x2="552.084" y2="761" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one93" x1="552.084" y1="761" x2="980.024" y2="607.641" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two93" x1="980.024" y1="607.641" x2="764.994" y2="207.125" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three93" x1="764.994" y1="207.125" x2="400.73" y2="479.086" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four93" x1="400.73" y1="479.086" x2="263.619" y2="685.933" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero94" x1="40" y1="767" x2="563.212" y2="767" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one94" x1="563.212" y1="767" x2="980.259" y2="607.028" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two94" x1="980.259" y1="607.028" x2="776.005" y2="209.787" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three94" x1="776.005" y1="209.787" x2="403.257" y2="455.915" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four94" x1="403.257" y1="455.915" x2="254.741" y2="663.536" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero95" x1="40" y1="773" x2="575.618" y2="773" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one95" x1="575.618" y1="773" x2="980.818" y2="605.553" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two95" x1="980.818" y1="605.553" x2="786.235" y2="212.661" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three95" x1="786.235" y1="212.661" x2="407.468" y2="433.48" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four95" x1="407.468" y1="433.48" x2="247.756" y2="643.091" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero96" x1="40" y1="779" x2="589.732" y2="779" stroke="black" stroke-width="3px" style="" visibility="visible"  />
+<line id="one96" x1="589.732" y1="779" x2="981.824" y2="602.835" stroke="black" stroke-width="3px" style="" visibility="visible"  />
+<line id="two96" x1="981.824" y1="602.835" x2="795.331" y2="215.55" stroke="black" stroke-width="3px" style="" visibility="visible"  />
+<line id="three96" x1="795.331" y1="215.55" x2="413.123" y2="412.241" stroke="black" stroke-width="3px" style="" visibility="visible"  />
+<line id="four96" x1="413.123" y1="412.241" x2="242.683" y2="625.941" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="visible"  />
+<line id="zero97" x1="40" y1="785" x2="606.325" y2="785" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one97" x1="606.325" y1="785" x2="983.482" y2="598.172" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two97" x1="983.482" y1="598.172" x2="802.645" y2="218.106" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three97" x1="802.645" y1="218.106" x2="419.765" y2="392.909" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four97" x1="419.765" y1="392.909" x2="239.671" y2="614.442" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero98" x1="40" y1="791" x2="627.069" y2="791" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one98" x1="627.069" y1="791" x2="986.186" y2="589.985" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two98" x1="986.186" y1="589.985" x2="806.725" y2="219.626" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three98" x1="806.725" y1="219.626" x2="426.416" y2="376.907" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four98" x1="426.416" y1="376.907" x2="239.477" y2="613.662" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<line id="zero99" x1="40" y1="797" x2="657.68" y2="797" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="one99" x1="657.68" y1="797" x2="991.049" y2="572.734" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="two99" x1="991.049" y1="572.734" x2="802.372" y2="218.007" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="three99" x1="802.372" y1="218.007" x2="430.073" y2="369.083" stroke="black" stroke-width="3px" style="" visibility="hidden"  />
+<line id="four99" x1="430.073" y1="369.083" x2="246.998" y2="640.673" stroke="black" stroke-width="3px" style="marker-end: url(#arrow);" visibility="hidden"  />
+<text x="700" y="80" id="text3601" xml:space="preserve" style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Sans Bold"><tspan x="700" y="80" id="tspan3603">two internal reflections</tspan><tspan x="700" y="150" id="rollover">(roll mouse over)</tspan></text>
+<text x="36.654186" y="972.02795" id="degrees" xml:space="preserve" style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Sans Bold">final angle: 51 degrees (minimum)</text>
+<text x="-492.67886" y="91.385658" transform="matrix(0,-1,1,0,0,0)" id="text3601" xml:space="preserve" style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Sans Bold"><tspan x="-492.67886" y="91.385658" id="incident">incident light ray</tspan></text>
+<text x="699.59692" y="488.63303" id="text3605" xml:space="preserve" style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Sans Bold"><tspan x="700" y="488.63303" id="tspan3607">water</tspan><tspan x="700" y="550" id="tspan3609">droplet</tspan></text>
+</svg>

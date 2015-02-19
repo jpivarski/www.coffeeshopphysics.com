@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4324"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="1203.76"
+   height="596"
+   sodipodi:docname="microwave.jpg">
+  <metadata
+     id="metadata4330">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4328">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4402">
+      <path
+         transform="translate(0,-15.254237)"
+         d="M 747.45764,424.06781 A 305.08475,305.08475 0 1 1 137.28815,424.06781 A 305.08475,305.08475 0 1 1 747.45764,424.06781 z"
+         sodipodi:ry="305.08475"
+         sodipodi:rx="305.08475"
+         sodipodi:cy="424.06781"
+         sodipodi:cx="442.37289"
+         id="path4404"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1434"
+     inkscape:window-height="847"
+     id="namedview4326"
+     showgrid="false"
+     inkscape:object-paths="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.39597315"
+     inkscape:cx="483.69289"
+     inkscape:cy="251.03486"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4324" />
+  <image
+     width="920"
+     height="596"
+     xlink:href="file:///home/pivarski/fun/www.coffeeshopphysics.com/staging/drafts/a_virus_has_no_color/microwave.jpg"
+     id="image4332"
+     x="280.76422"
+     y="0" />
+  <image
+     transform="matrix(0.68374491,0,0,0.68374491,-84.370072,101.60821)"
+     width="960"
+     height="720"
+     xlink:href="file:///home/pivarski/fun/www.coffeeshopphysics.com/staging/drafts/a_virus_has_no_color/microwave_closeup.jpg"
+     id="image4396"
+     x="0"
+     y="0"
+     clip-path="url(#clipPath4402)" />
+  <path
+     sodipodi:type="arc"
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:4.38760138;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="path4398"
+     sodipodi:cx="442.37289"
+     sodipodi:cy="424.06781"
+     sodipodi:rx="305.08475"
+     sodipodi:ry="305.08475"
+     d="M 747.45764,424.06781 A 305.08475,305.08475 0 1 1 137.28815,424.06781 A 305.08475,305.08475 0 1 1 747.45764,424.06781 z"
+     transform="matrix(0.68374491,0,0,0.68374491,-84.370072,91.1782)" />
+  <path
+     sodipodi:type="arc"
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="path4941"
+     sodipodi:cx="403.57819"
+     sodipodi:cy="363.85324"
+     sodipodi:rx="96.430191"
+     sodipodi:ry="96.430191"
+     d="M 500.00838,363.85324 A 96.430191,96.430191 0 1 1 307.14799,363.85324 A 96.430191,96.430191 0 1 1 500.00838,363.85324 z"
+     transform="translate(280.76421,0)" />
+  <path
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     d="M 259.60559,176.66159 L 701.47673,268.94075"
+     id="path4943"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="color:#000000;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     d="M 273.80395,582.21232 L 712.32663,456.16023"
+     id="path4962"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+</svg>
