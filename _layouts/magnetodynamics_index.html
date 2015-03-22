@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+    <title>{{ page.title }}</title>
+
+    <meta name="title" content="Magnetodynamics" >
+    <meta name="description" content="Information about the Unity3d package">
+    <link rel="image_src" href="http://www.coffeeshopphysics.com/coffeecup.jpg">
+    <link rel="shortcut icon" href="http://www.coffeeshopphysics.com/favicon.ico"/>
+
+    <meta property="og:title" content="Coffeeshop Physics"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:image" content="http://www.coffeeshopphysics.com/coffeecup.jpg"/>
+    <meta property="og:url" content="http://www.coffeeshopphysics.com/"/>
+    <meta property="og:site_name" content="Coffeeshop Physics"/>
+    <meta property="og:admins" content="100000170013388"/>
+    <meta property="fb:admins" content="100000170013388"/>
+
+    <link href="/css/default.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2655583-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+    <style type="text/css">
+      h4 { margin-bottom: 0px; }
+      p { margin-top: 10px;  text-align: justify; }
+    </style>
+
+    <script type="text/javascript" src="http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject.js"></script>
+    <script type="text/javascript">
+      unityObject.embedUnity("unityPlayer", "{{ page.demo }}.unity3d", 640, 400);
+
+      function stopit() {
+          document.getElementById("unityPlayer").innerHTML = "<img src=\"{{ page.demo }}_stopped.png\" width=\"640\" height=\"400\" />";
+      }
+    </script>
+
+  </head>
+  <body>
+    <div class="headblock island">
+      <a href="/">
+        <div>
+	  <img src="/img/coffeecup.jpg">
+          <h1>Coffeeshop&nbsp;Physics<br><span>by&nbsp;Jim&nbsp;Pivarski</span></h1>
+        </div>
+      </a>
+    </div>
+    <div class="island">
+<div style="display: block; margin-left: auto; margin-right: auto; width: 644px;">
+  <img src="title.png" alt="Magnetodynamics">
+
+  <div style="border: 1px solid black; padding: 1px;">
+  <div id="unityPlayer">
+    <div class="missing"><a href="http://unity3d.com/webplayer/" title="Needs Unity Web Player to run: click to install"><img alt="Needs Unity Web Player to run: click to install" src="{{ page.demo }}_getunity.png" width="640" height="400" /></a></div>
+  </div></div>
+
+  <div style="display: block; margin-left: auto; margin-right: auto; margin-top: 10px; width: 200px;">
+  <button style="float: left;" onClick="stopit();">Stop Player</button>
+  <button style="float: right;" onClick="window.location.reload();">Reload Page</button>
+  <br clear="all">
+  </div>
+</div>
+
+<div style="display: block; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 50px; max-width: 800px;">
+
+<a href="Magnetodynamics_v1_0_Documentation.pdf"><img style="display: block; float: right; margin-left: 20px; margin-bottom: 20px; margin-top: 0px; margin-right: 0px;" src="documentation.png" alt="Download the documentation"></a>
+
+      {{ content }}
+
+</div>
+
+<table style="margin-left: auto; margin-right: auto; margin-bottom: 10px;"><tr>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics"><img src="TabletopExperiments_small.png"></a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/VanDeGraaffExample"><img src="VanDeGraaffExample_small.png"></a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/BallMagnets"><img src="BallMagnets_small.png"></a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/SunAndEarthTutorial"><img src="SunAndEarthTutorial_small.png"></a></td></tr><tr>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/TabletopExperiments">Tabletop Experiments</a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/VanDeGraaffExample">Van de Graaff Demo</a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/BallMagnets">Ball magnets</a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/SunAndEarthTutorial">Sun and Earth</a></td>
+</table>
+
+<table style="margin-left: auto; margin-right: auto; margin-bottom: 10px;"><tr>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/WrenchesTutorial"><img src="WrenchesTutorial_small.png"></a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/SuperconductorTutorial"><img src="SuperconductorTutorial_small.png"></a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/SolenoidTutorial"><img src="SolenoidTutorial_small.png"></a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/GeomagnetismTutorial"><img src="GeomagnetismTutorial_small.png"></a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/PenningTrapTutorial"><img src="PenningTrapTutorial_small.png"></a></td></tr><tr>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/WrenchesTutorial">Flying Wrenches</a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/SuperconductorTutorial">Hovering Magnet</a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/SolenoidTutorial">Beam through Solenoid</a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/GeomagnetismTutorial">Geomagnetism</a></td>
+<td style="text-align: center; font-size: 9pt; width: 128px; padding: 0px; line-height: normal;"><a href="/magnetodynamics/PenningTrapTutorial">Antimatter in a Penning Trap</a></td>
+</table>
+
+    </div>
+    <div class="copyright island">
+      &copy; 2011&ndash;{{ site.time | date: '%Y' }} Jim Pivarski
+    </div>
+  </body>
+</html>
