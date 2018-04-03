@@ -1,0 +1,17 @@
+Title: Magnets for measurements
+
+Image caption: Magnet systems in modern particle physics experiments are used to analyze particle charge and momentum, but the field is strong enough and large enough to give a whale an MRI exam.
+
+Main text:
+
+Broadly speaking, a modern particle physics detector has three major pieces: (1) tracking, which charts the course of charged particles by letting them pass through thin sensors, (2) calorimetry, which measures the energy of charged or neutral particles by making them splat into a wall, and (3) a strong magnetic field. Unlike tracking and calorimetry, the magnet doesn't detect the particles directly --- it affects them in revealing ways.
+
+Magnetic fields curve the paths of charged particles, and the direction of curvature depends on whether the particle is positively or negatively charged. Thus, a tracking system with a magnetic field can distinguish between matter and antimatter. In addition, the deflection is larger for slow, low-momentum particles than it is for fast, high-momentum ones. Fast particles zip right through while slow ones loop around, possibly several times.
+
+Both effects were used to discover positrons in 1932. A cloud chamber (tracking system) immersed in a strong magnetic field revealed particles that curved in the wrong direction to be negatively charged electrons, yet were also too fast to be positively charged protons. The experimenters were forced to conclude that they had discovered a new particle, similar to electrons, but positively charged. It turned out to be the first evidence of antimatter.
+
+Today, most particle physics experiments feature a strong magnet. The radius of curvature of each particle's track precisely determines its momentum. In many experiments, these magnets are stronger than the ones used to conduct MRI scans in hospitals, yet are also large enough to fit a whale inside.
+
+Most of these magnets work the same way as a hand-held electromagnet: a constant current circulates in a coiled wire to produce a magnetic field. However, particle physics magnets are often made of superconducting metals to achieve extremely high currents and field strengths. Some magnets, such as CMS, are cylindrical for more precision at right angles to the beamline, while others, such as ATLAS, are toroidal for more precision close to the beamline. In some cases, an experiment without a built-in magnet can surreptitiously make use of natural magnetic fields: the Fermi-LAT satellite used the Earth's magnetic field to distinguish positrons from electrons.
+
+Since the particle momentum that a magnetized tracking system measures is closely related to the particle energy that a calorimeter measures, the two can cross-check each other, be used in combination, or reveal the particles that are invisible to tracking alone. Advances in understanding often come from different ways of measuring similar things.

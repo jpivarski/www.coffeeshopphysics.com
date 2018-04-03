@@ -1,0 +1,13 @@
+Title: Exotic colors
+
+Main text:
+
+When describing a result from the CMS experiment, I usually try to relate it to everyday experience because it reminds me that the esoteric phenomena observed in the LHC are as much a part of our world as the arc of a falling ball. These connections are more than metaphors because physics at all scales follows the same general principles, such as energy conservation, angular momentum and wave dynamics. However, the [result I'll be describing here] is unlike any process we see in everyday life.
+
+Of the four fundamental forces, the strong force and the weak force are the only two that have negligible effect on the macroscopic world (which is also why they never got good names). The strong force holds quarks together with gluons and the weak force slowly transmutes particles with W and Z bosons. As far as we know, the strong force and the weak force are unrelated, but there might be hidden relationships between them, waiting to be discovered.
+
+For instance, there could be one fundamental kind of force that appears as two distinct interactions in low-energy experiments, where "low energy" means everything from daily life up to the LHC. The history of physics is full of these kinds of connections, such as the discovery that electricity and magnetism are two aspects of one electromagnetic force. To predict how a strong/weak force might behave, physicists generalize from the symmetries of the strong and weak forces separately and propose a new symmetry that combines them, the way that a drawing with both left-right and top-bottom symmetry must have four corners with the same shape.
+
+For the strong/weak force, this means there would be new particles called color-octet/weak-triplets that decay into a pair of b quarks or a gluon and a Z boson. These new particles would be produced in pairs, resuting in final states with all four: two b quarks, a gluon jet and a Z boson. No combinations like this were observed in the CMS data, beyond the number expected from familiar processes, so this analysis rules out the possibility that octo-triplets exist with a mass less than half a TeV.
+
+However, heavier octo-triplets might still exist, and the higher-energy LHC Run-II might reveal them. Not only would this connect the strong and weak forces (called grand unification), but it could also explain how the Higgs mass can be as low as it is.

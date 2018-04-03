@@ -1,0 +1,19 @@
+Title: What d'ya mean, space is expanding?
+
+Image caption: We can tell if something is growing by comparing it to a fixed reference. But what if everything grows at the same rate?
+
+Main text:
+
+Imagine that everything in the room around you doubles in size, including the walls, the furniture and yourself. How could you tell? You might try measuring things with a ruler, but that wouldn't help if the ruler doubled as well. You could step outside, but now suppose that everything in the universe has grown by the same amount. How would you ever know?
+
+It is by now a well established fact that the universe is expanding, but what does that mean? The conventional explanation, that galaxies recede from each other like spots on an expanding balloon, doesn't resolve the issue. The balloon can be measured externally; The universe can't be.
+
+What scientists mean by "expanding space" is a change in the relationship between space and time. Lengths, measured in feet, meters and furlongs, might seem unrelated to durations, measured in seconds, hours and fortnights, but they are connected through relativity. According to relativity, a foot-long ruler measures about one nanosecond of time. In the future, it will take two such rulers, then three, etc. This is what it means for the universe to expand.
+
+Thus, cosmic expansion could be measured by a stopwatch instead of a ruler. All distances get larger relative to a nanosecond. Instead of saying that the lengths are getting bigger, we could say that the durations are getting smaller.
+
+This relationship between lengths and durations could be expressed as a ratio, and distance divided by time is a speed: the speed of light. Another way to think of cosmic expansion is to say that light (and everything else) is slowing down. It's taking longer for light to travel between galaxies, which would happen whether they're farther apart or the light is slower. The equations of relativity don't make a distinction.
+
+The sizes of atomic and molecular bonds are also determined by speed. If all particles in your body were to slow down by the same amount, you would shrink because electrons would fall in closer to the nuclei they orbit. Therefore, yet another way to think of cosmic expansion is to say that bound systems--- electrons around nuclei and planets around stars--- are shrinking relative to the space between galaxies.
+
+All of these are different ways of looking at the same equation. What scientists physically observe is that faraway galaxies are flying away from us--- an increase in distance relative to the way we measure distance on Earth. Instead of being like a room in which everything grows by the same amount, the walls and furniture grow while we don't. Or equivalently, we shrink while the room doesn't.

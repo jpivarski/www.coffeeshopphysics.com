@@ -1,0 +1,13 @@
+Image caption: The three-fold symmetry of electrons, muons and taus may be broken by Higgs decays. (Design adapted from a neolithic spiral and the flag of Sicily.)
+
+In _Rendezvous with Rama_, Arthur C. Clarke imagined an artifact built by aliens who have three arms with three fingers each, so everything about it has a three-fold symmetry. One could argue that our fondness for bilateral symmetries (in the design of cars, planes, cathedrals, etc.) comes from the ubiquity of this shape in life on Earth, and creatures from other worlds might have developed differently. However, it is more surprising to find such a pattern imprinted on the universe itself.
+
+All particles of matter come in threes: three generations of leptons and three generations of quarks. The second generation is a complete copy of the first with heavier masses, and the third generation is yet another copy. For instance, a muon is a heavy version of an electron, and a tau is a heavy muon. No one knows why matter comes in triplicate.
+
+For quarks, the symmetry isn't perfect because W bosons can turn quarks of one generation into quarks of another generation. Something else transforms generations of neutrinos. But charged leptons --- electrons, muons and taus --- appear to be rigidly distinct. Some physicists suspect that we simply haven't found the particle that mixes them yet.
+
+Or perhaps we have: Theoretically, the Higgs boson could mix lepton generations the way that the W boson mixes quarks. The Higgs decay modes haven't all been discovered yet, so it's possible that a single Higgs boson could decay into two generations of leptons at once, such as one muon and one tau. CMS scientists searched for muon-tau pairs with the right amount of energy to have come from a Higgs boson, and the results were surprising.
+
+They saw an excess of events. That is, they considered all the ways that other processes could masquerade as Higgs to muon-tau decays, estimated how many of these spurious events they should expect to find, and they found slightly more. The word "slightly" should be emphasized --- it is on the border of statistical significance, and other would-be discoveries at this level of significance have been shown to be flukes. On the other hand, if the effect is real, it would start as a weak signal until enough data confirm it.
+
+Naturally, the physics community is eager to see how this develops. The LHC, which is scheduled to restart this week at twice the energy of the first run, has the potential to produce Higgs bosons at a much higher rate --- perhaps enough to determine whether this three-fold symmetry of leptons is broken or not.

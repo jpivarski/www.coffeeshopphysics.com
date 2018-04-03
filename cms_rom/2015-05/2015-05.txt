@@ -1,0 +1,15 @@
+Title: Two Zs or three?
+
+Image caption: A coupling is a connection in the paths of particles viewed in a diagram in which one axis represents the flow of time.  A triple coupling could be one particle decaying into two or two particles colliding and forming one.  In the Standard Model, W-W-photon is allowed, but Z-Z-photon is not.
+
+Main text:
+
+Most everyday phenomena, from magnetism to the chemical processes of life, are due to exchanges of photons.  The only exceptions are gravity and radioactive decay (if you consider that an "everyday phenomenon").  Despite this apparent universality, the photon is only the first in a family of intermediate particles: Z bosons are like photons except that they have mass, and W+ and W- bosons are massive and also charged.
+
+These four bosons, Z, W+, W- and the photon, can also interact with each other.  Since a W boson is charged, it can emit a photon and change its trajectory.  Viewed in a space-time diagram (above) this is known as a coupling between the initial W, the final W, and the photon.  Similarly, W, W and Z can interact, but couplings between three or more neutral bosons, such as Z-photon-photon, Z-Z-photon and Z-Z-Z, are not allowed in the Standard Model and have never been observed.  This does not mean they're impossible, though.
+
+New phenomena beyond the Standard Model could make these so-called "anomalous" couplings possible.  A recent study by CMS scientists searched for evidence of such couplings by looking for two Z bosons in the same event.  Why not three?  Take a look at the space-time diagram above: One of the three bosons is the initial state that decays into the other two, resulting in two final-state Zs.
+
+However, other Standard Model processes can make pairs of Z bosons, so finding two Zs is not enough.  To determine whether the Z pair is due to an anomalous coupling or one of the allowed Standard Model processes, the scientists studied the momentum distribution of one of the Zs and the relative rate of ZZ production in 7 and 8 TeV collisions.  The effects of anomalous couplings would grow with collision energy.
+
+This search revealed exactly as many pairs of Z bosons as the Standard Model predicts (within uncertainties) and no anomalous couplings.  In fact, this analysis combined with a previous CMS result places the most stringent limits on anomalous couplings to date, sharpening our view of what might lie beyond the Standard Model.

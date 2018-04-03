@@ -1,0 +1,15 @@
+Title: The wonderful thing about triggers
+
+Main text:
+
+Imagine you're a particle physicist in 1932.  You have a cloud chamber that can show you the tracks of particles and you have a camera to capture those tracks for later analysis.  How do you set up an apparatus to take pictures whenever tracks appear?
+
+At first, you might just try to be quick with your finger on the shutter release, but since the tracks disappear in a quarter second, you'd end up with a lot of near misses.  You may give up and take pictures randomly, since you'll be lucky some fraction of the time.  Naturally, this wasteful process doesn't work if the type of event you're looking for is rare.  You could also leave the shutter open and expose the film to anything that appears over a long interval.  All events would overlap in the same picture, which makes it hard to interpret.
+
+Now suppose you have another piece of equipment: a Geiger counter.  This device, invented four years earlier, emits an electric signal every time a charged particle passes through it.  Two physicists, Blackett and Occhiali, surrounded their cloud chamber with Geiger counters and used the electric signal to snap the picture.  This kind of apparatus, known as a trigger, is crucial to detectors today.
+
+Experiments such as CMS record one in a million LHC collisions --- the rest are lost to further analysis.  Collisions that break up protons but do not create new particles are ten orders of magnitude more common than collisions that produce Higgs bosons, so modern triggers must be extremely selective.
+
+Blackett and Occhiali's original trigger system relied on two Geiger counters: one above and one below the cloud chamber.  Each Geiger counter was noisy, and therefore prone to take bad pictures, but both counters were unlikely to trigger at the same time accidentally.  These two electronic signals were passed through a circuit that only registered if both counters triggered.
+
+Today, triggers combine millions of data channels in complex ways, but the main idea is the same.  Events should only be selected if signals in adjacent detectors line up.  The desired geometric patterns are encoded into microchips for fast, coarse decisions and are computed in detail in a farm of computers that make slower decisions downstream.  The calculation resembles a pipeline: New data are entering the microchips while old data are still being processed by the computer farm.  The first step is so time-sensitive that the length of the wire matters --- the speed of light is one foot per nanosecond, so every foot of cable matters when you're making nanosecond decisions.

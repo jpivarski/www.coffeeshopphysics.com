@@ -1,0 +1,17 @@
+LPC sign-off:
+
+Don Lincoln <lincoln@fnal.gov>, Meenakshi Narain <narain@hep.brown.edu>, Boaz Klima <klima@fnal.gov>, Kevin A Burkett <burkett@fnal.gov>, Lothar Bauerdick <bauerdick@fnal.gov>
+
+Ready to go:
+
+"Katie E. Jones" <katie.elyce.jones@gmail.com>, Fermilab Today <today@fnal.gov>
+
+Former LPC:
+
+Yuri Gershtein <gershtein@physics.rutgers.edu>
+Richard Cavanaugh <Richard.Cavanaugh@cern.ch>
+Ian Shipsey <shipsey@purdue.edu>
+Dan Green <dgreen@fnal.gov>
+Joel Butler <butler@fnal.gov>
+Patricia McBride <mcbride@fnal.gov>
+Tulika Bose <tulika@fnal.gov>
